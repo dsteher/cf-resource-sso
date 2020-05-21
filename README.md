@@ -33,7 +33,7 @@ be specified.
 * `path`: *Optional.* Path to the application to push. If this isn't set then
   it will be read from the manifest instead.
 * `environment_variables`: *Optional.* It is not necessary to set the variables in [manifest][cf-manifests] if this parameter is set.
-* `vars`: *Optional.* Map of variables to pass to manifest
+* `vars`: *Optional.* Map of variables to pass to manifest. If you user more than one word which is passed to manifest, put the underscore between them (example: "environment_variable")
 * `vars_files`: *Optional.* List of variables files to pass to manifest
 * `no_start`: *Optional.* Deploys the app but does not start it. This parameter is ignored when `current_app_name` is specified.
 * `debug`: *Optional.* TO enable debug output.
